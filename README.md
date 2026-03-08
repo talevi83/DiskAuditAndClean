@@ -21,7 +21,7 @@ A Windows desktop application that scans drives/folders for large files, identif
 ### 1. Clone and create virtual environment
 
 ```bash
-git clone https://github.com/talevi83/DiskAudit-And-Clean.git
+git clone https://github.com/talevi83/DiskAuditAndClean.git
 cd DiskAudit-And-Clean
 python -m venv venv
 ```
