@@ -16,31 +16,12 @@ A Windows desktop application that scans drives/folders for large files, identif
 - **Clean vs Delete** — temp folders are cleaned (contents removed, folder kept) instead of fully deleted
 - **Dark themed UI** — built with CustomTkinter
 
-## Screenshot
-
-```
-+------------------------------------------------------------------+
-| [Path input...............] [Browse] [Scan] [Smart Audit (AI)]   |
-| [======================== Progress ==================] Scanning.. |
-|                                                                  |
-| Name / Path    | Size  | Risk | Action | AI Description |  Del  |
-|----------------|-------|------|--------|----------------|-------|
-| [DIR] Temp     | 2.1GB | LOW  | DELETE | Temp/cache...  | Clean |
-| [FILE] dump.gz | 1.8GB | MED  | BACKUP | Database dump  | Delete|
-| ...            |       |      |        |                |       |
-|                  << Prev   Page 1/5   Next >>                    |
-|                                                                  |
-| Status Log                                                       |
-| [12:00:01] Scan complete. Found 342 items >= 1 MB.              |
-+------------------------------------------------------------------+
-```
-
 ## Setup
 
 ### 1. Clone and create virtual environment
 
 ```bash
-git clone https://github.com/<your-username>/DiskAudit-And-Clean.git
+git clone https://github.com/talevi83/DiskAudit-And-Clean.git
 cd DiskAudit-And-Clean
 python -m venv venv
 ```
@@ -68,7 +49,7 @@ Edit `.env` and set your API key:
 GEMINI_API_KEY=your_api_key_here
 ```
 
-Get a free API key at [https://ai.google.dev](https://ai.google.dev).
+Get a free API key at [https://aistudio.google.com/api-keys](https://aistudio.google.com/api-keys).
 
 ### 4. Run
 
